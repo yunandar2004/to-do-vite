@@ -1,0 +1,15 @@
+@import url("../node_modules/animate.css/animate.min.css");
+@import url("../node_modules/sweetalert2/dist/sweetalert2.min.css");
+@import "tailwindcss";
+
+.swal2-confirm {
+  @apply bg-slate-950 ; /*If need add !important*/
+}
+
+.swal2-popup {
+  @apply rounded-none w-[350px]  ;
+}
+
+.swal2-icon {
+  @apply size-[70px]  ;
+}
